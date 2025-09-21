@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "MyKurdishFont"; /* This is the name you will use for the font */
+  src: url("assets/fonts/rudawregular2.woff") format("woff"); /* The path to your font file */
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: MyKurdishFont, sans-serif !important;
+}
+
+/* Apply Poppins font when the language is English */
+html[lang="en"] body {
+  font-family: "Poppins", sans-serif !important;
+}

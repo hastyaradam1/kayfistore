@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "brand": "Kayfi Store",
+    "language": "Language"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "storeName": "Kayfi Store",
+    "subtitle": "Get the best products at the most affordable prices here. We are committed to providing excellent quality and service.",
+    "cta": "Contact Us"
+  },
+  "gallery": {
+    "title": "Our Product Gallery",
+    "subtitle": "Take a look at a selection of our best products.",
+    "items": {
+      "item1": "Fresh Produce",
+      "item2": "Sweets & Cakes",
+      "item3": "Natural Drinks",
+      "item4": "Grains & Dried Goods",
+      "item5": "Spices & Flavors",
+      "item6": "Ready-Made Meals"
+    }
+  },
+  "whyUs": {
+    "tagline": "Trust and Quality",
+    "title": "Why Choose Kayfi Store?",
+    "subtitle": "We pride ourselves on offering the best shopping experience to our customers.",
+    "features": {
+      "quality": "High Quality",
+      "quality_desc": "We select the best and freshest products to ensure your satisfaction.",
+      "price": "Affordable Prices",
+      "price_desc": "We compete with the best prices in the market without compromising on quality.",
+      "service": "Fast Service",
+      "service_desc": "Our team is always ready to help and answer your questions quickly.",
+      "selection": "Wide Selection",
+      "selection_desc": "We have a diverse range of products that meets all your needs."
+    }
+  },
+  "ourStory": {
+    "title": "Our Story: From a Dream to Serving You",
+    "p1": "The story of Kayfi Store began with a simple passion: the desire to provide the best products to the beloved people of Kurdistan. We started as a small team with a big dream, believing that shopping should be a pleasant and easy experience, not a difficult task.",
+    "p2": "Our main goal has always been to become your trusted place. In selecting each product, we are meticulous and confident in its quality. We believe that fair prices and high quality can coexist, so we strive to offer you the best prices.",
+    "p3": "You are not just customers; you are part of the big Kayfi family. That's why we are always ready to listen to you and respond to your requests quickly. Thank you for your trust; we will continue to grow and offer the best for you.",
+    "quote": "Our goal is not just to sell, but to build a strong relationship with you, our dear ones, a relationship based on trust and respect.",
+    "author": "Danar Kayfi"
+  },
+  "staff": {
+    "title": "Our Dedicated Team",
+    "subtitle": "Meet the people who work daily to provide you with the best service.",
+    "owner_name": "Danar Kayfi",
+    "owner_role": "Store Manager",
+    "owner_desc": "The general manager and founder of Kayfi Store, with a vision to deliver high quality to customers.",
+    "supervisor_name": "Kayfi Hassan",
+    "supervisor_role": "Store Supervisor",
+    "supervisor_desc": "Responsible for managing daily operations and ensuring customer satisfaction."
+  },
+  "aboutUs": {
+    "title": "Our Vision & Values",
+    "subtitle": "We are more than just a store. We are committed to a set of values that guide our daily work and strengthen our relationship with you.",
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To become a leader in providing local and high-quality products in Kurdistan."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To offer an exceptional shopping experience through dedicated service and reliable products."
+    },
+    "values": {
+      "title": "Our Values",
+      "desc": "Honesty, quality, and customer respect are the foundation of our work."
+    },
+    "community": {
+      "title": "Community Service",
+      "desc": "We believe we are part of the community and strive to play a positive role."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or want to know more? We're here to help.",
+    "infoTitle": "Contact Information",
+    "addressTitle": "Address",
+    "address": "Smaquli Intersection",
+    "phoneTitle": "Phone Number",
+    "phone": "07510214540",
+    "emailTitle": "Email",
+    "email": "info@kayfistore.com",
+    "mapTitle": "Kayfi Store Location on Map"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "rightsReserved": "All rights reserved.",
+    "developedBy": "Developed by:",
+    "developerName": "Hastyar Adam"
+  }
+}
