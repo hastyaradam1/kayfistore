@@ -55,7 +55,7 @@ const GalleryItem = ({ src, title }) => (
       className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
     />
     {/* Overlay with title at the bottom */}
-    <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+    <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
       <h3 className="text-white text-xl font-bold">{title}</h3>
     </div>
   </motion.div>
@@ -67,14 +67,14 @@ const Gallery = () => {
   // 2. Update this list with your images and titles.
   const galleryItems = [
     // Dairy Products
-    { id: 1, src: mast, title: t("gallery.items.item7") }, // Mast
-    { id: 2, src: panir, title: t("gallery.items.item7") }, // Panir
+    { id: 1, src: mast, title: t("gallery.items.item7") }, // Mast & Panir
+    { id: 2, src: panir, title: t("gallery.items.item7") }, // Mast & Panir
     { id: 3, src: doyKayfi, title: t("gallery.items.item3") }, // Do
     // Sweets & Cakes
     { id: 4, src: shirini2, title: t("gallery.items.item2") },
     { id: 5, src: shirini3, title: t("gallery.items.item2") },
     { id: 6, src: shirini4, title: t("gallery.items.item2") },
-    { id: 7, src: shirini5, title: t("gallery.items.item2") },
+    { id: 7, src: shirini5, title: t("gallery.items.item8") }, // Changed to Dried Sweets & Cookies
     { id: 8, src: shirini6, title: t("gallery.items.item2") },
     // Dried Goods
     { id: 9, src: wshka, title: t("gallery.items.item8") }, // Wshka (Dried sweets/cookies)
@@ -86,8 +86,8 @@ const Gallery = () => {
         <motion.div
           className="text-center mb-12"
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          whileInView="visible" // Animate when the element is in view
+          viewport={{ once: true, amount: 0.2 }} // Trigger animation when 20% is visible for better mobile experience
           variants={containerVariants}
         >
           <motion.h2
