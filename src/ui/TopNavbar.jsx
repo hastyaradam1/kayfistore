@@ -64,21 +64,6 @@ const TopNavbar = () => {
     // Set the overall direction to right-to-left
     // The dir attribute will be managed by the language change
     <div>
-      {/* 
-        React 19 automatically moves these tags to the <head> of the document.
-        This makes SEO management much easier without extra libraries.
-      */}
-      <title>{t("seo.title", "Kayfi Store | Best Products")}</title>
-      <meta
-        name="description"
-        content={t(
-          "seo.description",
-          "Welcome to Kayfi Store. Find the best products at the best prices."
-        )}
-      />
-      {/* This sets the browser tab icon (favicon). Make sure you have a logo.svg in your /public folder. */}
-      <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-
       <nav
         className={`sticky top-0 z-50 transition-all duration-300 ${
           isScrolled
