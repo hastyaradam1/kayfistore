@@ -43,7 +43,8 @@ const HeroContent = () => {
       className="relative z-10 flex flex-col items-center text-center p-4"
       variants={containerVariants}
       initial="hidden"
-      animate="visible"
+      animate="visible"dir={document.documentElement.dir}
+      
     >
       <motion.h1
         className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
