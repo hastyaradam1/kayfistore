@@ -17,6 +17,11 @@ import wshka from "../assets/images/wshka.JPG";
 import doyKayfi from "../assets/images/doyKayfi.JPG";
 import mast from "../assets/images/mast.JPG";
 import panir from "../assets/images/panir.JPG";
+import image3 from "../assets/images/3.JPG";
+import image4 from "../assets/images/4.JPG";
+import image5 from "../assets/images/5.JPG";
+import image6 from "../assets/images/6.JPG";
+import image7 from "../assets/images/7.JPG";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -78,6 +83,12 @@ const Gallery = () => {
     { id: 8, src: shirini6, title: t("gallery.items.item2") },
     // Dried Goods
     { id: 9, src: wshka, title: t("gallery.items.item8") }, // Wshka (Dried sweets/cookies)
+    // Additional Images
+    { id: 10, src: image3, title: t("gallery.items.item2") },
+    { id: 11, src: image4, title: t("gallery.items.item2") },
+    { id: 12, src: image5, title: t("gallery.items.item2") },
+    { id: 13, src: image6, title: t("gallery.items.item2") },
+    { id: 14, src: image7, title: t("gallery.items.item2") },
   ];
 
   return (
