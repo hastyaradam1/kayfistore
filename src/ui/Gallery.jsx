@@ -4,24 +4,17 @@ import { useTranslation } from "react-i18next";
 // 1. Add your gallery images to the `src/assets/images` folder.
 // For example: gallery-1.jpg, gallery-2.jpg, etc.
 
-import shirini2 from "../assets/images/shirini2.JPG";
-import shirini3 from "../assets/images/shirini3.JPG";
-import shirini4 from "../assets/images/shirini4.JPG";
-import shirini5 from "../assets/images/shirni5.JPG";
-import shirini6 from "../assets/images/shirini6.JPG";
-import shirini7 from "../assets/images/shirni7.JPG";
-import shirini8 from "../assets/images/shirni8.JPG";
-import shirini9 from "../assets/images/shirini9.JPG";
-import shirini10 from "../assets/images/shirini10.JPG";
-import wshka from "../assets/images/wshka.JPG";
-import doyKayfi from "../assets/images/doyKayfi.JPG";
-import mast from "../assets/images/mast.JPG";
-import panir from "../assets/images/panir.JPG";
-import image3 from "../assets/images/3.JPG";
-import image4 from "../assets/images/4.JPG";
-import image5 from "../assets/images/5.JPG";
-import image6 from "../assets/images/6.JPG";
-import image7 from "../assets/images/7.JPG";
+import img1 from "../assets/images/1.PNG";
+import img2 from "../assets/images/2.PNG";
+import img3 from "../assets/images/3.PNG";
+import img4 from "../assets/images/4.PNG";
+import img5 from "../assets/images/5.PNG";
+import img6 from "../assets/images/6.PNG";
+import img7 from "../assets/images/7.PNG";
+import img8 from "../assets/images/8.PNG";
+import img9 from "../assets/images/9.png";
+import img10 from "../assets/images/10.png";
+import img11 from "../assets/images/11.png";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -69,26 +62,18 @@ const GalleryItem = ({ src, title }) => (
 const Gallery = () => {
   const { t } = useTranslation();
 
-  // 2. Update this list with your images and titles.
   const galleryItems = [
-    // Dairy Products
-    { id: 1, src: mast, title: t("gallery.items.item7") }, // Mast & Panir
-    { id: 2, src: panir, title: t("gallery.items.item7") }, // Mast & Panir
-    { id: 3, src: doyKayfi, title: t("gallery.items.item3") }, // Do
-    // Sweets & Cakes
-    { id: 4, src: shirini2, title: t("gallery.items.item2") },
-    { id: 5, src: shirini3, title: t("gallery.items.item2") },
-    { id: 6, src: shirini4, title: t("gallery.items.item2") },
-    { id: 7, src: shirini5, title: t("gallery.items.item8") }, // Changed to Dried Sweets & Cookies
-    { id: 8, src: shirini6, title: t("gallery.items.item2") },
-    // Dried Goods
-    { id: 9, src: wshka, title: t("gallery.items.item8") }, // Wshka (Dried sweets/cookies)
-    // Additional Images
-    { id: 10, src: image3, title: t("gallery.items.item2") },
-    { id: 11, src: image4, title: t("gallery.items.item2") },
-    { id: 12, src: image5, title: t("gallery.items.item2") },
-    { id: 13, src: image6, title: t("gallery.items.item2") },
-    { id: 14, src: image7, title: t("gallery.items.item2") },
+    { id: 1, src: img1, title: t("gallery.items.item2") },
+    { id: 2, src: img2, title: t("gallery.items.item2") },
+    { id: 3, src: img3, title: t("gallery.items.item3") },
+    { id: 4, src: img4, title: t("gallery.items.item2") },
+    { id: 5, src: img5, title: t("gallery.items.item2") },
+    { id: 6, src: img6, title: t("gallery.items.item2") },
+    { id: 7, src: img7, title: t("gallery.items.item2") },
+    { id: 8, src: img8, title: t("gallery.items.item2") },
+    { id: 9, src: img9, title: t("gallery.items.item8") },
+    { id: 10, src: img10, title: t("gallery.items.item7") },
+    { id: 11, src: img11, title: t("gallery.items.item7") },
   ];
 
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/images/froshga_hero.jpg";
+import img from "../assets/images/hero.jpg";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
