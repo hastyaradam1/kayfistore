@@ -5,7 +5,7 @@ const SEO = ({ title, description, keywords, image, url }) => {
   // زانیارییە گشتییەکانی وێبسایتەکەت
   const siteName = "فرۆشگای کەیفی";
   const defaultDescription =
-    "فرۆشگای کەیفی بۆ فرۆشتنی باشترین کاڵاکان بە نرخێکی گونجاو. سەردانمان بکەن بۆ ئەزموونێکی کڕینی ناوازە.";
+    "فرۆشگای کەیفی بۆ فرۆشتنی بەرهەمی خۆماڵی و شیرەمەنیەکان بە نرخێکی گونجاو بە جملەو مفرد. سەردانمان بکەن بۆ ئەزموونێکی کڕینی ناوازە.";
   const defaultKeywords =
     "کەیفی, فرۆشگا, کڕین, ئۆنڵاین, جلوبەرگ, کاڵا, kurdish, online shop";
   const siteUrl = "https://www.kayfistore.com";
