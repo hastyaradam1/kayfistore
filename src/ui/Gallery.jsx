@@ -15,6 +15,7 @@ import img8 from "../assets/images/8.PNG";
 import img9 from "../assets/images/9.png";
 import img10 from "../assets/images/10.png";
 import img11 from "../assets/images/11.png";
+import img12 from "../assets/images/12.png";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -53,7 +54,7 @@ const GalleryItem = ({ src, title }) => (
       className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
     />
     {/* Overlay with title at the bottom */}
-    <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+    <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/50 md:bg-gradient-to-t md:from-black/80 md:to-transparent translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
       <h3 className="text-white text-xl font-bold">{title}</h3>
     </div>
   </motion.div>
@@ -65,7 +66,7 @@ const Gallery = () => {
   const galleryItems = [
     { id: 1, src: img1, title: t("gallery.items.item2") },
     { id: 2, src: img2, title: t("gallery.items.item2") },
-    { id: 3, src: img3, title: t("gallery.items.item3") },
+    { id: 3, src: img12, title: t("gallery.items.item3") },
     { id: 4, src: img4, title: t("gallery.items.item2") },
     { id: 5, src: img5, title: t("gallery.items.item2") },
     { id: 6, src: img6, title: t("gallery.items.item2") },
