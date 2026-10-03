@@ -25,7 +25,9 @@
       "item6": "Ready-Made Meals",
       "item7": "Yogurt & Cheese",
       "item8": "Kurdish Rice"
-    }
+    },
+    "orderViaWhatsApp": "Order via WhatsApp",
+    "whatsappMessage": "Hello! I would like to inquire about: {{item}}"
   },
   "whyUs": {
     "tagline": "Trust and Quality",
