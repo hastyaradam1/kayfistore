@@ -18,13 +18,16 @@
     "subtitle": "Take a look at a selection of our best products.",
     "items": {
       "item1": "Fresh Produce",
-      "item2": "Sweets & Cakes",
-      "item3": "Local Products",
-      "item4": "Grains & Dried Goods",
-      "item5": "Spices & Flavors",
-      "item6": "Ready-Made Meals",
-      "item7": "Yogurt & Cheese",
-      "item8": "Kurdish Rice"
+      "item2": "Nutella Pistachio Lokum",
+      "item3": "Natural Local Honey",
+      "item4": "Kayfi Store Trends",
+      "item5": "Pomegranate Lokum",
+      "item6": "Kayfi Store Local Delicacies",
+      "item7": "Traditional Halva",
+      "item8": "Basooq & Sujuq (Walnut Delights)",
+      "item9": "Kurdish Rice",
+      "item10": "Traditional Local Yogurt",
+      "item11": "Kurdish Traditional Cheese"
     },
     "orderViaWhatsApp": "Order via WhatsApp",
     "whatsappMessage": "Hello! I would like to inquire about: {{item}}"

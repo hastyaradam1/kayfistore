@@ -130,14 +130,14 @@ const Gallery = () => {
   const galleryItems = [
     { id: 2, src: img2, title: t("gallery.items.item2") },
     { id: 3, src: img12, title: t("gallery.items.item3") },
-    { id: 4, src: img4, title: t("gallery.items.item2") },
-    { id: 5, src: img5, title: t("gallery.items.item2") },
-    { id: 6, src: img6, title: t("gallery.items.item2") },
-    { id: 7, src: img7, title: t("gallery.items.item2") },
-    { id: 8, src: img8, title: t("gallery.items.item2") },
-    { id: 9, src: img9, title: t("gallery.items.item8") },
-    { id: 10, src: img10, title: t("gallery.items.item7") },
-    { id: 11, src: img11, title: t("gallery.items.item7") },
+    { id: 4, src: img4, title: t("gallery.items.item4") },
+    { id: 5, src: img5, title: t("gallery.items.item5") },
+    { id: 6, src: img6, title: t("gallery.items.item6") },
+    { id: 7, src: img7, title: t("gallery.items.item7") },
+    { id: 8, src: img8, title: t("gallery.items.item8") },
+    { id: 9, src: img9, title: t("gallery.items.item9") },
+    { id: 10, src: img10, title: t("gallery.items.item10") },
+    { id: 11, src: img11, title: t("gallery.items.item11") },
   ];
 
   // Auto-scroll and highlight when URL contains item ID (e.g. ?item=2 or #product-2)
